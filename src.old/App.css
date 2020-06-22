@@ -1,0 +1,47 @@
+body,
+html {
+  background-color: rgb(80, 62, 5);
+}
+
+p {
+  margin: 2vh;
+  font-size: calc(14px + 0.5vw);
+}
+
+a {
+  text-decoration: none;
+}
+
+.app {
+  text-align: center;
+  font-family: "Open Sans";
+  user-select: none;
+  background-color: rgb(34, 35, 41);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(12px + 0.5vw);
+  color: rgb(255, 255, 255);
+  padding: 8vh 0 8vh;
+}
+
+.eventify-yellow {
+  color: rgb(255, 196, 0);
+  font-weight: 700;
+  margin: 0 2px;
+}
+
+h2 {
+  color: #61fbe6;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  margin: 2px 0 8px;
+}
+
+@media (max-width: 900px) {
+}

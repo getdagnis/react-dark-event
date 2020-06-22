@@ -1,0 +1,25 @@
+.button {
+  background-color: rgb(255, 196, 0);
+  border: none;
+  border-radius: 2px;
+  padding: 1vw 3vw;
+  font-size: 1.1rem;
+  transition: all .6s ease;
+  color: black;
+  cursor: pointer;
+  margin-top: 3vh;
+  outline: none;
+}
+
+.button:hover {
+  padding: 1vw 4vw;
+  transform: scale(1.1);
+  background-color: rgb(255, 196, 0);
+  color: black;
+  transition-duration: 0.2s;
+}
+
+.button:active {
+  transform: scale(1);
+  color: white;
+}
