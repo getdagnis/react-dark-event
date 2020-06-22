@@ -19,9 +19,9 @@ class App extends Component {
     };
   }
   // Local: http://localhost:3000/categories.json
-  // Remote: https://api.jsonbin.io/b/5ef0d985e2ce6e3b2c777cc4
+  // Remote: https://api.jsonbin.io/b/5ef0da8e97cb753b4d15b347
   componentDidMount() {
-    fetch("https://api.jsonbin.io/b/5ef0d985e2ce6e3b2c777cc4")
+    fetch("https://api.jsonbin.io/b/5ef0da8e97cb753b4d15b347")
       .then((response) => response.json())
       .then((categories) => this.setState({ categories: categories }));
   }
