@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-dark-event/static/css/main.21ae6630.chunk.css",
+    "main.js": "/react-dark-event/static/js/main.26859618.chunk.js",
+    "main.js.map": "/react-dark-event/static/js/main.26859618.chunk.js.map",
+    "runtime-main.js": "/react-dark-event/static/js/runtime-main.a7931bf9.js",
+    "runtime-main.js.map": "/react-dark-event/static/js/runtime-main.a7931bf9.js.map",
+    "static/js/2.01690b57.chunk.js": "/react-dark-event/static/js/2.01690b57.chunk.js",
+    "static/js/2.01690b57.chunk.js.map": "/react-dark-event/static/js/2.01690b57.chunk.js.map",
+    "index.html": "/react-dark-event/index.html",
+    "precache-manifest.3f902378b81a276e45812fd8e19f7ff5.js": "/react-dark-event/precache-manifest.3f902378b81a276e45812fd8e19f7ff5.js",
+    "service-worker.js": "/react-dark-event/service-worker.js",
+    "static/css/main.21ae6630.chunk.css.map": "/react-dark-event/static/css/main.21ae6630.chunk.css.map",
+    "static/js/2.01690b57.chunk.js.LICENSE.txt": "/react-dark-event/static/js/2.01690b57.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7931bf9.js",
+    "static/js/2.01690b57.chunk.js",
+    "static/css/main.21ae6630.chunk.css",
+    "static/js/main.26859618.chunk.js"
+  ]
+}
