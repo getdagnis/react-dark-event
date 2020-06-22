@@ -18,9 +18,10 @@ class App extends Component {
       searchValue: "",
     };
   }
-
+  // Local: http://localhost:3000/categories.json
+  // Remote: https://api.jsonbin.io/b/5ef0d985e2ce6e3b2c777cc4
   componentDidMount() {
-    fetch("http://localhost:3000/categories.json")
+    fetch("https://api.jsonbin.io/b/5ef0d985e2ce6e3b2c777cc4")
       .then((response) => response.json())
       .then((categories) => this.setState({ categories: categories }));
   }
