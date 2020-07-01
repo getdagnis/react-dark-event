@@ -6,6 +6,7 @@ import { Topbar } from "./components/Topbar/Topbar";
 import { AllCategories } from "./components/AllCategories/AllCategories.jsx";
 import { SingleCategory } from "./components/SingleCategory/SingleCategory.jsx";
 import { Todos } from "./components/Todos/todos";
+import { Categories } from "./config";
 
 class App extends Component {
   constructor() {
@@ -18,16 +19,18 @@ class App extends Component {
       searchValue: "",
     };
   }
+
   // Local: http://localhost:3000/categories.json
   // Remote: https://api.jsonbin.io/b/5ef0da8e97cb753b4d15b347
-  componentDidMount() {
-    fetch("https://api.jsonbin.io/b/5ef0da8e97cb753b4d15b347")
-      .then((response) => response.json())
-      .then((categories) => this.setState({ categories: categories }));
-  }
+  // componentDidMount() {
+  //   fetch("http://localhost:3000/categories.json")
+  //     .then((response) => response.json())
+  //     .then((categories) => this.setState({ categories: categories }));
+  // }
 
   render() {
-    const { categories, searchValue } = this.state;
+    const { searchValue } = this.state;
+    const categories = Categories;
     const filteredCategories = categories.filter(
       (category) =>
         JSON.stringify(category)

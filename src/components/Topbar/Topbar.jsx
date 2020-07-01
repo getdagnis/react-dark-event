@@ -21,11 +21,11 @@ export class Topbar extends React.Component {
   }
   render() {
     const { message, title, searchHandle } = this.props;
-    const btnLink = this.state.todoIsOpen === false ? "/todo" : "/";
+    const btnLink = this.state.todoIsOpen === false ? "/todo" : "/categories";
     const btnTitle = this.state.todoIsOpen === false ? "TODOs" : "Categories";
     return (
       <div className="topbar">
-        <div class="top-left">
+        <div className="top-left">
           <p>
             {message}
             <Link to="/">
@@ -33,14 +33,14 @@ export class Topbar extends React.Component {
             </Link>
           </p>
         </div>
-        <div class="top-center">
+        <div className="top-center">
           <SearchField
             className="topbar-search"
             placeHolder="Meklē kategorijās..."
             handleChange={searchHandle}
           />
         </div>
-        <div class="top-right">
+        <div className="top-right">
           <Link to={btnLink}>
             <Button
               title={btnTitle}

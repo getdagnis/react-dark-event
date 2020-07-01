@@ -19,10 +19,23 @@ export const AllCategories = (props) => {
       ></CategoryList>
     </div>
   ));
-  return categories.length < 1 ? (
+  return categories.length < 1 && props.search.length > 0 ? (
     <div>
       Nav atrasta kategorija ar nosaukumu{" "}
       <span className="eventify-yellow">{props.search}</span>
+    </div>
+  ) : categories.length < 1 && props.search.length < 1 ? (
+    <div>
+      <span className="eventify-yellow">
+        Iespējama fetch savienojuma kļūda. Kategorijas netika ielādētas.
+      </span>
+      <p>
+        Categories masīva saturs: <strong>{JSON.stringify(categories)}</strong>
+      </p>
+      <p>
+        Categories masīva tips:{" "}
+        <strong>{typeof JSON.stringify(categories)}</strong>
+      </p>
     </div>
   ) : (
     <React.Fragment>
