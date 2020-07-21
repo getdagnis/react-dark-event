@@ -14,7 +14,7 @@ class App extends Component {
 
     this.state = {
       categories: [],
-      message: "the.dark.side.of.",
+      message: "test.",
       title: "eventify",
       searchValue: "",
     };
