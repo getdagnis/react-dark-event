@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab27ab521e59ba612126df8a107e8d7a",
+    "revision": "4bfd159aaf61a680997d0f81acf13a27",
     "url": "/react-dark-event/index.html"
   },
   {
-    "revision": "1c21b3964aa22d409200",
+    "revision": "873182af87c2cc381a48",
     "url": "/react-dark-event/static/css/main.21ae6630.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-dark-event/static/js/2.3f9d11c1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1c21b3964aa22d409200",
-    "url": "/react-dark-event/static/js/main.0c29b714.chunk.js"
+    "revision": "873182af87c2cc381a48",
+    "url": "/react-dark-event/static/js/main.46fbd80c.chunk.js"
   },
   {
     "revision": "5b969026e75c2f9f7ac0",
