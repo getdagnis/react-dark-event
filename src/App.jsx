@@ -47,6 +47,11 @@ class App extends Component {
         categories: filteredCategories,
       },
       {
+        path: "/react-dark-event",
+        component: AllCategories,
+        categories: filteredCategories,
+      },
+      {
         path: "/categories",
         component: AllCategories,
         categories: filteredCategories,
